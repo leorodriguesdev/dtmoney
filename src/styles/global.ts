@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
         --blue-light: #3456ff;
 
-        --tex-titlle: #363f5f;
+        --tex-title: #363f5f;
         --tex-body: #969cb3;
 
         --shape: #ffffff;
@@ -77,7 +77,7 @@ export const GlobalStyle = createGlobalStyle`
         background: var(--background);
         padding: 3rem;
         position: relative;
-        border-radius: 0.25rem;
+        border-radius: 0.24rem;
     }
     
     .react-modal-close {
