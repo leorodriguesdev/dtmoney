@@ -1,6 +1,6 @@
 
 <p align="center" >
-<img   alt="dtmoney banner" src=".github/dtmoneybanner.png" />
+<img   alt="dtmoney banner" src=".github/dtmoneybanner-en.png" />
 </p>
 
 
