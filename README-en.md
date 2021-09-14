@@ -10,7 +10,7 @@
 </h1>
 <p align="center">💲 Application for personal finance control </p>
 
----
+
 \
 \
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
@@ -37,20 +37,20 @@ Guide
 <!--te-->
 
 ## About
----
+
 dt money is a project created for personal finance control, where you can find resources such as input and output of money, organized by name and category.
 Project created in the chapter 1 of the IGNITE of the Rocketseat.
 
 
 ## Project Status
----
+
 
 <h4 align="center"> 
 	🚧  dtmoney 🚩 Under construction...  🚧
 </h4>
 
 ## Features
----
+
 
 - [x] Entry/Exit Registration
 - [x] Input, Output and Total Calculation
@@ -98,7 +98,7 @@ The following tools were used in the construction of the project:
 - [Styled Components](https://styled-components.com/)  
 
 ## Author
----
+
 
 <a href="https://bio.link/leorodriguesdev">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74029443?s=400&u=6805c72bfdcfef209836c10e359c1312bb1619c7&v=4" width="100px;" alt=""/>
