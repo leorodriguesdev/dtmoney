@@ -11,7 +11,7 @@
 </h1>
 <p align="center">💲 Aplicação para controle pessoal de finanças </p>
 
----
+
 \
 \
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
@@ -38,20 +38,19 @@ Guia
 <!--te-->
 
 ## Sobre
----
+
 dt money é um projeto criado para controle de finanças pessoal, onde você encontra recursos como de entrada e daída de dinheiro,organizadas por nome e categoria.
 Projeto criado no chapter 1 do IGNITE da Rocketseat.
 
 
 ## Status do Projeto
----
 
 <h4 align="center"> 
 	🚧  dtmoney 🚩 Em construção...  🚧
 </h4>
 
 ## Features
----
+
 
 - [x] Cadastro de entrada/saída
 - [x] Calculo de Entrada, Saída e Total
@@ -99,7 +98,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Styled Components](https://styled-components.com/)  
 
 ## Autor
----
+
 
 <a href="https://bio.link/leorodriguesdev">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74029443?s=400&u=6805c72bfdcfef209836c10e359c1312bb1619c7&v=4" width="100px;" alt=""/>
