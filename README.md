@@ -25,44 +25,51 @@
 <a href="https://github.com/onLeoRodrigues/dtmoney/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/onLeoRodrigues/dtmoney"></a>
 <a href="https://github.com/onLeoRodrigues/dtmoney/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/onLeoRodrigues/dtmoney"></a>
 
-Tabela de conteúdos
+Guia
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Status do Projeto](#Status-do-projeto)
+   * [Features](#Features)
+   * [Pré-requisitos](#Pre-requisitos)
+   * [Rodando a aplicação](#Rodando-a-aplicação)
+   * [Tecnologias](#Tecnologias)
+   * [Autor](#Autor)
 <!--te-->
 
+## Sobre
+---
+dt money é um projeto criado para controle de finanças pessoal, onde você encontra recursos como de entrada e daída de dinheiro,organizadas por nome e categoria.
+Projeto criado no chapter 1 do IGNITE da Rocketseat.
+
+
+## Status do Projeto
+---
+
 <h4 align="center"> 
-	🚧  dtmoney 🚀 Em construção...  🚧
+	🚧  dtmoney 🚩 Em construção...  🚧
 </h4>
 
-### Features
+## Features
+---
 
 - [x] Cadastro de entrada/saída
 - [x] Calculo de Entrada, Saída e Total
 - [ ] Página de login
 
-
+---
 <h1 align="center">
   <img alt="dtmoneypreview" title="#dtmoneypreview" src=".github/preview.png" />
 </h1>
 
-### Pré-requisitos
+
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando a aplicação (navegador)
+## 🎲 Rodando a aplicação
 
 ```bash
 # Clone este repositório
@@ -79,7 +86,7 @@ $ yarn start
 
 # A aplicação inciará na porta:3000 - acesse http://localhost:3000/
 ```
-### 🛠 Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -91,7 +98,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Polished](https://polished.js.org/)
 - [Styled Components](https://styled-components.com/)  
 
-### Autor
+## Autor
 ---
 
 <a href="https://bio.link/leorodriguesdev">
@@ -102,9 +109,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Leonardo Rodrigues 👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@leorodriguesdev-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/leorodriguesdev)](https://twitter.com/leorodriguesdev) [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Twitter Badge](https://img.shields.io/badge/-@leorodriguesdev-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/leorodriguesdev)](https://twitter.com/leorodriguesdev) [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/on-leorodrigues/)](https://www.linkedin.com/in/on-leorodrigues/) 
 [![Gmail Badge](https://img.shields.io/badge/-lerodriguesoffice@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leorodriguesoffice@gmail.com)](mailto:leorodriguesoffice@gmail.com)
 
 <p align="left" >
-<img   alt="logoleo" src=".github/logoleo.png" />
+<img   alt="logoleo" src=".github/logoleo.png" width="400px; />
 </p>
