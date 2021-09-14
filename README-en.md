@@ -59,6 +59,7 @@ Project created in the chapter 1 of the IGNITE of the Rocketseat.
 ---
 <h1 align="center">
   <img alt="dtmoneypreview" title="#dtmoneypreview" src=".github/preview.png" />
+  <img alt="dtmoneypreview" title="#dtmoneypreview" src=".github/preview2.png" />
 </h1>
 
 
