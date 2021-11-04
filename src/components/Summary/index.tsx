@@ -7,7 +7,7 @@ import { useTransaction } from "../../hooks/useTransactions";
 export function Summary() {
     const { transactions } = useTransaction();
 
-    const sumary = transactions.reduce((acc, transaction) => {
+    const summary = transactions.reduce((acc, transaction) => {
         if (transaction.type === 'deposit') {
             acc.deposits += transaction.amount;
             acc.total += transaction.amount;
@@ -34,7 +34,7 @@ export function Summary() {
                 {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.deposits)}
+                    }).format(summary.deposits)}
                     </strong>
             </div>
             <div>
@@ -43,13 +43,14 @@ export function Summary() {
                     <img src={outcomeImg} alt="Saídas" />
                 </header>
                 <strong>
+                {summary.withdraws !== 0 ? '-' : ''}
                 {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.withdraws)}
+                    }).format(summary.withdraws)}
                 </strong>
             </div>
-            <div>
+            <div className="highlight-background">
                 <header>
                     <p>Total</p>
                     <img src={totalImg} alt="Total" />
@@ -58,7 +59,7 @@ export function Summary() {
                     {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.total)}
+                    }).format(summary.total)}
                 </strong>
             </div>
         </Container>
