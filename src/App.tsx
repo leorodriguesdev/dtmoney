@@ -1,4 +1,4 @@
-import { useTransaction, TransactionsProvider } from "./../src/hooks/useTransactions";
+import { TransactionsProvider } from "./../src/hooks/useTransactions";
 import { Dashboard } from "./components/Dashboard";
 import { useState } from 'react'
 import { Header } from "./components/Header";
