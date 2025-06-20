@@ -41,7 +41,7 @@ const [transactions, setTransactions] = useState<Transaction[]>([]);
 
 useEffect(() => {
   api.get('transactions')
-    .then(response => setTransactions(response.data.transactions))
+    .then(response => setTransactions(response.data))
 }, []);
 
 async function createTransaction(transactionInput: TransactionInput) {
@@ -49,7 +49,7 @@ async function createTransaction(transactionInput: TransactionInput) {
         ...transactionInput,
         createdAt: new Date(),
     })
-    const { transaction } = response.data;
+    const transaction = response.data;
 
 
     setTransactions([
